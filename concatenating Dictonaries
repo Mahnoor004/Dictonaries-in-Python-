@@ -1,0 +1,8 @@
+dic = {0:'Zero', 1:'one'}
+dic2= {2:'two', 3:'three'}
+dic3={4:'four',5:'five'}
+dic4 = {}
+dic4.update(dic)
+dic4.update(dic2)
+dic4.update(dic3)
+print(dic4)
