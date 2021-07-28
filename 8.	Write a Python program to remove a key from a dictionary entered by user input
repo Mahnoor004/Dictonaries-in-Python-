@@ -1,0 +1,4 @@
+d1 = {'a': 100, 'b': 200,'x': 300, 'y': 200}
+user= input("enter the key value to be removed ")
+d1.pop(user)
+print(d1)
