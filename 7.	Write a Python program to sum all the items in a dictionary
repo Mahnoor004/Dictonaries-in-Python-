@@ -1,0 +1,5 @@
+d1 = {'a': 100, 'b': 200,'x': 300, 'y': 200}
+sum=0
+for value in d1:
+    sum= sum+d1[value]
+print(sum)
