@@ -1,0 +1,6 @@
+dic = {0:'Zero', 1:'one',2:'two', 3:'three',4:'four',5:'five'}
+key=int(input('Input the key to check '))
+if key in dic:
+    print('Yes ' ,key, ' Exist')
+else:
+    print(key," does not exist")
